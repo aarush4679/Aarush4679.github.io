@@ -1,11 +1,18 @@
-/* styles.css */
+/* Styles.css */
 
-body {
-  font-family: 'Montserrat', sans-serif;
+/* Reset */
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+/* Base Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
   background-color: #f4f4f4;
   color: #333;
+  line-height: 1.6;
 }
 
 .container {
@@ -14,6 +21,7 @@ body {
   padding: 20px;
 }
 
+/* Header */
 header {
   background: linear-gradient(90deg, #35424a, #1e272e);
   color: #fff;
@@ -40,13 +48,15 @@ header {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-  transition: 0.3s;
+  transition: color 0.3s;
 }
 
-.nav-links li a:hover {
+.nav-links li a:hover,
+.nav-links li a.active {
   color: #ffb400;
 }
 
+/* Hero Section */
 .hero {
   background: url('https://source.unsplash.com/1600x900/?elderly,care') no-repeat center center/cover;
   height: 500px;
@@ -54,7 +64,7 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white;
+  color: #fff;
 }
 
 .hero h2 {
@@ -65,7 +75,7 @@ header {
 .hero p {
   font-size: 20px;
   max-width: 600px;
-  margin: auto;
+  margin: 0 auto 20px;
 }
 
 .buttons {
@@ -77,11 +87,11 @@ header {
   padding: 14px 28px;
   margin: 10px;
   background: #ff6f61;
-  color: white;
+  color: #fff;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
-  transition: 0.3s;
+  transition: background 0.3s;
 }
 
 .btn:hover {
@@ -96,14 +106,63 @@ header {
   background: #ffa000;
 }
 
+/* About Section */
 .about {
   text-align: center;
   padding: 50px 20px;
 }
 
+/* Form Styles (Volunteer) */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+form label {
+  margin: 10px 0 5px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 12px;
+  background: #35424a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Social Links (Contact) */
+.social-links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.social-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.social-links li a {
+  color: #35424a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Footer */
 footer {
   text-align: center;
   background: #35424a;
-  color: white;
+  color: #fff;
   padding: 15px;
+  margin-top: 30px;
 }
