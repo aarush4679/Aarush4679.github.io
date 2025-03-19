@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Volunteer - Hope Charity</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <h1 class="logo">Hope Charity</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="volunteer.html" class="active">Volunteer</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+    <h2>Become a Volunteer</h2>
+    <p>
+      We welcome volunteers from all walks of life. Join our mission to create positive change. Fill out the form below to get started.
+    </p>
+    <form action="#" method="post" class="volunteer-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      
+      <label for="message">Why do you want to volunteer?</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; 2025 Hope Charity. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>

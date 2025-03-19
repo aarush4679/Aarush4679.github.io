@@ -1,0 +1,109 @@
+/* styles.css */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background: linear-gradient(90deg, #35424a, #1e272e);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #ffb400;
+}
+
+.hero {
+  background: url('https://source.unsplash.com/1600x900/?elderly,care') no-repeat center center/cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  margin: 10px;
+  background: #ff6f61;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff483f;
+}
+
+.btn-secondary {
+  background: #ffb400;
+}
+
+.btn-secondary:hover {
+  background: #ffa000;
+}
+
+.about {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+footer {
+  text-align: center;
+  background: #35424a;
+  color: white;
+  padding: 15px;
+}

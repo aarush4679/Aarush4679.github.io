@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donate - Hope Charity</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <h1 class="logo">Hope Charity</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="donate.html" class="active">Donate</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+    <h2>Your Support Matters</h2>
+    <p>
+      Every donation makes a difference. Your generous contribution helps us provide vital services to communities in need. Use the secure links below to donate.
+    </p>
+    <ul class="donation-links">
+      <li><a href="https://www.paypal.com/donate?hosted_button_id=EXAMPLE" target="_blank" class="btn">Donate via PayPal</a></li>
+      <li><a href="https://www.patreon.com/yourcharity" target="_blank" class="btn">Donate via Patreon</a></li>
+    </ul>
+  </main>
+
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; 2025 Hope Charity. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
