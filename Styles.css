@@ -21,7 +21,7 @@ body {
 /* Header */
 header {
   background: #222;
-  color: #ffcc00; /* Changed from white to golden */
+  color: #ffcc00; /* Golden text */
   padding: 20px 0;
   text-align: center;
 }
@@ -38,7 +38,7 @@ header {
   margin: 0 15px;
 }
 .nav-links li a {
-  color: #ffcc00; /* Changed to golden */
+  color: #ffcc00;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s;
@@ -52,7 +52,8 @@ header {
 .hero {
   position: relative;
   height: 500px;
-  background: url('https://source.unsplash.com/1600x900/?elderly,community') no-repeat center center/cover;
+  background-size: cover;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,7 +71,7 @@ header {
   position: relative;
   z-index: 1;
   padding: 20px;
-  color: #ffcc00; /* Changed text to golden */
+  color: #ffcc00;
 }
 .hero h2 {
   font-size: 42px;
@@ -86,7 +87,7 @@ header {
   padding: 14px 28px;
   margin: 10px;
   background: #ff6f61;
-  color: #fff;  /* Buttons remain white for contrast */
+  color: #fff;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
@@ -110,7 +111,7 @@ header {
 .image-showcase h2 {
   font-size: 36px;
   margin-bottom: 20px;
-  color: #ffcc00; /* Golden text */
+  color: #ffcc00;
 }
 .image-grid {
   display: flex;
@@ -129,7 +130,7 @@ header {
 /* Footer */
 footer {
   background: #222;
-  color: #ffcc00; /* Changed to golden */
+  color: #ffcc00;
   text-align: center;
   padding: 20px 0;
   margin-top: 30px;
