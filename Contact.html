@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Midwest Shave & Style | Information</title>
+  <title>Midwest Shave & Style | Contact</title>
   <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
@@ -15,39 +15,45 @@
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="Bookings.html">Bookings</a></li>
-          <li><a href="Information.html" class="active">Information</a></li>
-          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="Information.html">Information</a></li>
+          <li><a href="Contact.html" class="active">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <section class="page-header">
+  <section class="page-header" style="background-image: url('https://source.unsplash.com/1600x400/?barbershop,contact');">
+    <div class="page-header-overlay"></div>
     <div class="container">
-      <h2>About Us</h2>
-      <p>Discover our story and the timeless tradition behind Midwest Shave & Style.</p>
+      <h2>Get in Touch</h2>
+      <p>We’d love to hear from you—whether it's for bookings, inquiries, or feedback.</p>
     </div>
   </section>
 
-  <section class="info container">
-    <h3>Our Story</h3>
-    <p>
-      Founded in the heart of the Midwest, Midwest Shave & Style was built on tradition and a passion for the craft of barbering. We embrace the old-school barbershop atmosphere where every customer is treated like family.
-    </p>
+  <section class="contact container">
+    <div class="contact-info">
+      <h3>Visit Us</h3>
+      <p>123 Main Street<br />Anytown, Midwest, USA</p>
+      <h3>Call Us</h3>
+      <p>(555) 123-4567</p>
+      <h3>Business Hours</h3>
+      <p>Mon - Sat: 9 AM - 7 PM<br />Sun: Closed</p>
+    </div>
+    <div class="contact-form">
+      <h3>Send Us a Message</h3>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
 
-    <h3>Our Services</h3>
-    <ul>
-      <li>Traditional Haircuts</li>
-      <li>Classic Shaves</li>
-      <li>Beard Trimming & Grooming</li>
-      <li>Hot Towel Treatments</li>
-      <li>Grooming Packages</li>
-    </ul>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
 
-    <h3>Our Philosophy</h3>
-    <p>
-      We believe in preserving the art of traditional barbering while delivering a modern and comfortable experience. Our focus is on quality, authenticity, and personal service.
-    </p>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
   </section>
 
   <footer>
