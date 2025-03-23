@@ -1,0 +1,266 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: #ffcc00;  /* Golden tone for a vintage feel */
+  padding: 20px 0;
+  text-align: center;
+}
+.logo {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+.nav-links {
+  list-style: none;
+  margin-top: 10px;
+}
+.nav-links li {
+  display: inline;
+  margin: 0 15px;
+}
+.nav-links li a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #ffb400;
+}
+
+/* Page Header for Internal Pages */
+.page-header {
+  background: url('https://source.unsplash.com/1600x400/?barbershop,vintage') no-repeat center center/cover;
+  position: relative;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.page-header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.page-header .container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.page-header h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.page-header p {
+  font-size: 20px;
+}
+
+/* Hero Section (Home Page) */
+.hero {
+  position: relative;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+.hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  color: #ffcc00;
+}
+.hero h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 20px;
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+.hero-buttons a {
+  display: inline-block;
+  padding: 14px 28px;
+  margin: 10px;
+  background: #ff6f61;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.hero-buttons a:hover {
+  background: #ff483f;
+}
+.btn-secondary {
+  background: #ffb400;
+}
+.btn-secondary:hover {
+  background: #ffa000;
+}
+
+/* Intro Section (Home Page) */
+.intro {
+  text-align: center;
+  padding: 50px 0;
+}
+.intro h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ffcc00;
+}
+.intro p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Image Showcase Section */
+.image-showcase {
+  text-align: center;
+  padding: 50px 0;
+}
+.image-showcase h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ffcc00;
+}
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.image-grid img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Booking Form */
+.booking-form form,
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+}
+.booking-form label,
+.contact-form label {
+  margin: 10px 0 5px;
+}
+.booking-form input,
+.contact-form input,
+.booking-form select,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.booking-form button,
+.contact-form button {
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  background: #ff6f61;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.booking-form button:hover,
+.contact-form button:hover {
+  background: #ff483f;
+}
+
+/* Info Section (Information Page) */
+.info {
+  padding: 50px 0;
+}
+.info h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+.info p,
+.info ul {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.info ul {
+  list-style: disc inside;
+}
+
+/* Contact Section (Contacts Page) */
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 50px 0;
+}
+.contact-info,
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+}
+.contact-info h3,
+.contact-form h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+.contact-info p,
+.contact-form p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #ffcc00;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 30px;
+}

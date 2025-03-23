@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midwest Shave & Style | Information</title>
+  <link rel="stylesheet" href="Styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <h1 class="logo">Midwest Shave & Style</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="Bookings.html">Bookings</a></li>
+          <li><a href="Information.html" class="active">Information</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Discover our story and the timeless tradition behind Midwest Shave & Style.</p>
+    </div>
+  </section>
+
+  <section class="info container">
+    <h3>Our Story</h3>
+    <p>
+      Founded in the heart of the Midwest, Midwest Shave & Style was built on tradition and a passion for the craft of barbering. We embrace the old-school barbershop atmosphere where every customer is treated like family.
+    </p>
+
+    <h3>Our Services</h3>
+    <ul>
+      <li>Traditional Haircuts</li>
+      <li>Classic Shaves</li>
+      <li>Beard Trimming & Grooming</li>
+      <li>Hot Towel Treatments</li>
+      <li>Grooming Packages</li>
+    </ul>
+
+    <h3>Our Philosophy</h3>
+    <p>
+      We believe in preserving the art of traditional barbering while delivering a modern and comfortable experience. Our focus is on quality, authenticity, and personal service.
+    </p>
+  </section>
+
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; 2025 Midwest Shave & Style. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
